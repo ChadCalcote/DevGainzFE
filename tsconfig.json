@@ -1,0 +1,13 @@
+{
+    "include": [
+        "./src/**/*"
+       ],
+    "compilerOptions": {
+    "strict": true,
+    "allowJs": true,
+    "target": "es2015",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "jsx": "react"
+  }
+}
