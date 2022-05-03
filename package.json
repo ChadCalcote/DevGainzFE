@@ -1,0 +1,24 @@
+{
+  "name": "react-17-parcel-2-ts",
+  "version": "1.0.0",
+  "description": "react 17 and parcel 2 with typescript starter",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "lodash": "4.17.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.39",
+    "@types/react-dom": "17.0.11",
+    "parcel": "2.4.1"
+  },
+  "keywords": [
+    "parcel",
+    "react",
+    "typescript"
+  ]
+}
