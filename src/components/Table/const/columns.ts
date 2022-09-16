@@ -1,4 +1,4 @@
-import { Column } from '../types'
+import { Column } from 'src/components/Table/types'
 
 const columns: Column[] = [
     { heading: 'Muscle Group' },

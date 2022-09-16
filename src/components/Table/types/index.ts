@@ -6,6 +6,4 @@ export interface TableProps {
     columns: Column[]
 }
 
-export interface TableHeaderItemProps {
-    item: Column
-}
+

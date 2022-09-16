@@ -1,11 +1,21 @@
 {
-    "include": ["./src/**/*"],
     "compilerOptions": {
-        "strict": true,
+        "target": "es5",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "baseUrl": ".",
         "allowJs": true,
-        "target": "es2015",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
+        "strict": false,
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext",
         "moduleResolution": "node",
-        "jsx": "react"
-    }
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx"
+    },
+    "include": ["src", "@types", "dangerfile.ts"],
+    "exclude": ["**/*.test.tsx"]
 }

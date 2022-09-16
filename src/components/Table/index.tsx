@@ -1,8 +1,7 @@
-import React from 'react'
-import { useEffect } from 'react'
-import './index.css'
-import TableHeaderItem from '../TableHeaderItem'
-import { TableProps } from './types'
+import React, { useEffect } from 'react'
+import 'src/components/Table/index.css'
+import TableHeaderItem from 'src/components/TableHeaderItem'
+import { TableProps } from 'src/components/Table/types'
 
 const Table = ({ columns }: TableProps) => {
     useEffect(() => {
