@@ -1,27 +1,38 @@
 {
-  "name": "react-17-parcel-2-ts",
-  "version": "1.0.0",
-  "description": "react 17 and parcel 2 with typescript starter",
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "check": "tsc --noEmit"
-  },
-  "dependencies": {
-    "lodash": "4.17.10",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "@types/lodash": "4.14.179",
-    "@types/react": "17.0.39",
-    "@types/react-dom": "17.0.11",
-    "typescript": "4.4.4",
-    "parcel": "2.4.1"
-  },
-  "keywords": [
-    "parcel",
-    "react",
-    "typescript"
-  ]
+    "name": "react-17-parcel-2-ts",
+    "version": "1.0.0",
+    "description": "react 17 and parcel 2 with typescript starter",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html",
+        "check": "tsc --noEmit"
+    },
+    "dependencies": {
+        "lodash": "4.17.10",
+        "react": "17.0.2",
+        "react-dom": "17.0.2"
+    },
+    "devDependencies": {
+        "@types/lodash": "4.14.179",
+        "@types/react": "17.0.39",
+        "@types/react-dom": "17.0.11",
+        "@typescript-eslint/eslint-plugin": "^5.37.0",
+        "@typescript-eslint/parser": "^5.37.0",
+        "eslint": "^8.23.1",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-import-resolver-typescript": "^3.5.1",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jsx-a11y": "^6.6.1",
+        "eslint-plugin-react": "^7.31.8",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "parcel": "2.4.1",
+        "prettier": "2.7.1",
+        "typescript": "^4.8.3"
+    },
+    "keywords": [
+        "parcel",
+        "react",
+        "typescript"
+    ]
 }
