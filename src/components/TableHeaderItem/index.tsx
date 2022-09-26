@@ -1,8 +1,6 @@
-import React from 'react'
-import { TableHeaderItemProps } from '../Table/types'
+import React from "react";
+import { TableHeaderItemProps } from "../Table/types";
 
-const TableHeaderItem = ({ item }: TableHeaderItemProps) => (
-    <th>{item.heading}</th>
-)
+const TableHeaderItem = ({ item }: TableHeaderItemProps) => <th>{item.heading}</th>;
 
-export default TableHeaderItem
+export default TableHeaderItem;

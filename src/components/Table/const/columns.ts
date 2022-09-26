@@ -1,10 +1,10 @@
-import { Column } from '../types'
+import { Column } from "../types";
 
 const columns: Column[] = [
-    { heading: 'Muscle Group' },
-    { heading: 'Exercise' },
-    { heading: 'Rep(s)' },
-    { heading: 'Weight' },
+    { heading: 'Muscle Group'},
+    { heading: 'Exercise'},
+    { heading: 'Rep(s)'},
+    { heading: 'Weight'},
 ]
 
-export default columns
+export default columns;
