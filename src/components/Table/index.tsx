@@ -1,11 +1,10 @@
-import React from "react";
-import { useEffect } from "react";
-import './index.css'
+import React from 'react';
+import { useEffect } from 'react';
+import './index.css';
 import TableHeaderItem from '../TableHeaderItem';
-import { TableProps } from "./types";
+import { TableProps } from './types';
 
 const Table = ({ columns }: TableProps) => {
-
     useEffect(() => {
         // Pull In Data
     }, []);
@@ -14,7 +13,9 @@ const Table = ({ columns }: TableProps) => {
         <table>
             <thead>
                 <tr>
-                    {columns.map((item, index) => <TableHeaderItem item={item} />)}
+                    {columns.map((item, index) => (
+                        <TableHeaderItem item={item} />
+                    ))}
                 </tr>
             </thead>
             <tbody>
@@ -26,7 +27,7 @@ const Table = ({ columns }: TableProps) => {
                 </tr>
             </tbody>
         </table>
-    )
-}
+    );
+};
 
 export default Table;
