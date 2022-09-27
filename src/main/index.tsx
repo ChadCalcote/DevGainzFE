@@ -6,9 +6,9 @@ function Main() {
     return (
         <>
             <h2>Dev Gainz</h2>
-            <Table columns={columns}/>
+            <Table columns={columns} />
         </>
-    )
+    );
 }
 
 export default Main;

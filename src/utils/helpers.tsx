@@ -1,7 +1,5 @@
-function greet(greeting:string, name:string):string {
+function greet(greeting: string, name: string): string {
     return `${greeting}, ${name}!`;
 }
 
-export {
-    greet
-};
+export { greet };

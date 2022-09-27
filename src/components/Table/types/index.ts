@@ -1,11 +1,11 @@
 export interface Column {
-    heading: string
+    heading: string;
 }
 
 export interface TableProps {
-    columns: Column[]
+    columns: Column[];
 }
 
 export interface TableHeaderItemProps {
-    item: Column
+    item: Column;
 }
